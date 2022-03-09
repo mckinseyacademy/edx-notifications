@@ -38,7 +38,7 @@ def load_requirements(*requirements_paths):
 
 setup(
     name='edx-notifications',
-    version='1.2.4',
+    version='1.3.0',
     description='Notification subsystem for Open edX',
     long_description=open('README.md').read(),
     author='edX',
@@ -54,6 +54,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
     packages=['edx_notifications'],
