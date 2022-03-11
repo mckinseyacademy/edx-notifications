@@ -10,7 +10,7 @@ from datetime import datetime
 import pytz
 from dateutil import parser
 from django.test import TestCase
-from django.utils.six import BytesIO
+from six import BytesIO
 from rest_framework.parsers import JSONParser
 from rest_framework.renderers import JSONRenderer
 
