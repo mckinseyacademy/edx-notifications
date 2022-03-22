@@ -60,6 +60,9 @@ LANGUAGES = (
     ('ar', u'العربية'),  # Arabic
     ('Ar-sa', u'Arabic'),  # Arabic Saudi Arabia
     ('zh', u'中文(简体)'),
+    # ('ES419', u'Latin Spanish'),
+    # This code is not available in Django 3.0
+    # Error: (translation.E002) You have provided an invalid language code in the LANGUAGES setting: 'ES419'.
     ('es', u'Español'),
     ('ja', u'Japanese'),
     ('ko', u'한국어 (대한민국)'),  # Korean (Korea)
