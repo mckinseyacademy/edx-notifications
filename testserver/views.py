@@ -10,7 +10,7 @@ import pytz
 from django.conf import settings
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render
 from django.contrib.auth import logout
 from django.templatetags.static import static
 from django.views.decorators.csrf import csrf_protect
@@ -276,8 +276,8 @@ def register(request):
     )
 
 def register_success(request):
-    return render_to_response(
-        'registration/success.html',
+    return render(request=request,
+        template_name='registration/success.html',
     )
 
 def logout_page(request):
