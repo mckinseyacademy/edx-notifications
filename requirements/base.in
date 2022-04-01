@@ -1,10 +1,10 @@
 # Django/Framework Packages
-django==3.0.14
+django==3.1.14
 django-model-utils==4.0.0
 python-dateutil
-requests==2.22.0
+requests==2.26.0
 pylru==1.0.6
-djangorestframework==3.11.0
+djangorestframework==3.12.4
 PyContracts==1.7.1
 underscore.py==0.1.6
 pynliner==0.8.0
