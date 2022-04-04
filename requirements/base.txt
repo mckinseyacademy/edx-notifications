@@ -10,8 +10,8 @@ chardet==3.0.4            # via requests
 cssutils==1.0.2           # via pynliner
 decorator==4.4.2          # via pycontracts
 django-model-utils==4.0.0  # via -r requirements/base.in
-django==3.0.14            # via -r requirements/base.in, django-model-utils, djangorestframework
-djangorestframework==3.11.0  # via -r requirements/base.in
+django==3.1.14            # via -r requirements/base.in, django-model-utils, djangorestframework
+djangorestframework==3.12.4  # via -r requirements/base.in
 freezegun==0.3.15         # via -r requirements/base.in
 idna==2.8                 # via requests
 git+https://github.com/milesrichardson/ParsePy.git  # via -r requirements/base.in
@@ -20,10 +20,10 @@ pylru==1.0.6              # via -r requirements/base.in
 pynliner==0.8.0           # via -r requirements/base.in
 pyparsing==2.4.7          # via pycontracts
 python-dateutil==2.8.1    # via -r requirements/base.in, freezegun
-pytz==2020.1              # via django
-requests==2.22.0          # via -r requirements/base.in
+pytz==2022.1              # via django
+requests==2.26.0          # via -r requirements/base.in
 six==1.15.0               # via freezegun, parse-rest, python-dateutil
 soupsieve==2.0.1          # via beautifulsoup4
 sqlparse==0.3.1           # via django
 underscore.py==0.1.6      # via -r requirements/base.in
-urllib3==1.25.9           # via requests
+urllib3==1.26.7           # via requests
